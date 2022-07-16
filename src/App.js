@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import { useState } from 'react';
 
@@ -12,9 +12,9 @@ function App() {
   return (
     <div className="App">
       <h1>Prince Counter app</h1>
-      <h4> Number: {count}</h4>
-      <button onClick={addCount}>Add</button>
-      <button onClick={lessCount}>Less</button>
+      <h2> Number: {count}</h2>
+      <button className='btn' onClick={addCount}>Add</button>
+      <button className='btn2' onClick={lessCount}>Less</button>
     </div>
   );
 }
